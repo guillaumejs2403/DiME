@@ -4,5 +4,5 @@ MODEL_FLAGS="--image_size 128 --attention_resolutions 32,16,8 --class_cond False
 echo "Training diffusor"
 export NCCL_P2P_DISABLE=1
 mpiexec -n 4 python celeba-train-diffusion.py $TRAIN_FLAGS $MODEL_FLAGS \
-                                              --output_path '/data/chercheurs/jeanner211/RESULTS/DCF-CelebA/ddpm-128-unconditional' \
+                                              --output_path 'ddpm-celeba' \
                                               --gpus '0,1,2,3'
