@@ -5,7 +5,7 @@ import pandas as pd
 import os
 import os.path as osp
 
-data_dir = '/home/jeanner211/DATASETS/celeba'
+data_dir = ''
 
 random.seed(5)
 
