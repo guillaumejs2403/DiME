@@ -283,8 +283,6 @@ class ImageSaver():
         self.exp_name = exp_name
         self.idx = 0
         self.extention = extention
-        with open('imagenet1000_clsidx_to_labels.txt') as f: 
-            self.dic = eval(f.read()) 
         self.construct_directory()
 
     def construct_directory(self):
