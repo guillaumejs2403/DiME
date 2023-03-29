@@ -1,8 +1,8 @@
 MODEL_FLAGS="--attention_resolutions 32,16,8 --class_cond False --diffusion_steps 500 --learn_sigma True --noise_schedule linear --num_channels 128 --num_heads 4 --num_res_blocks 2 --resblock_updown True --use_fp16 True --use_scale_shift_norm True"
 SAMPLE_FLAGS="--batch_size 50 --timestep_respacing 200"
-DATAPATH=/home/personnels/jeanner211/DATASETS/celeba
-OUTPUT_PATH=results
-EXPNAME=test
+DATAPATH=/path/to/celeba
+OUTPUT_PATH=/path/to/results
+EXPNAME=expname
 
 # parameters of the sampling
 GPU=2
