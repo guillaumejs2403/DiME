@@ -1,6 +1,6 @@
 TEMPPATH=./.temp  # temp folder to store the data
-OUTPATH=/home/jeanner211/RESULTS/ACCV-Rebuttal/l1-perc0/q-31_t--1
-EXPPATH=l1-0.05
+OUTPATH=/tmp/to/results
+EXPPATH=expname
 
 mkdir -p ${TEMPPATH}/real
 mkdir -p ${TEMPPATH}/cf
