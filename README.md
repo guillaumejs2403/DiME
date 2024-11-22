@@ -2,6 +2,9 @@
 
 This is the codebase for the ACCV 2022 paper [Diffusion Models for Counterfactual Explanations](https://arxiv.org/abs/2203.15636).
 
+### UPDATE!!!!
+Please check our CVIU extension paper [here](https://www.sciencedirect.com/science/article/abs/pii/S1077314224002881) :)!
+
 ## Environment
 
 Through anaconda, install our environment:
